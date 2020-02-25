@@ -52,28 +52,7 @@ for (i in 1:length(labels)) {
   assign(labels[i], file)
 }
 
-
-# Detailed state and substate level values
-
-# geo <- NULL
-# 
-# geopath <- function (x) {
-#   paste("https://lehd.ces.census.gov/data/schema/latest/label_geography_", x, ".csv", sep = "")
-# }
-# 
-# stpath <- sapply(states, geopath)
-# 
-# for (i in 1:length(states)) {
-#   file <- read_csv(stpath[i], col_types = "cc_")
-#   geo <- rbind(geo, file)
-# }
-
-
 # Pluging labels into main QWI dataset
-
-# qwi_all_lbls <- qwi_all
-
-# lbls <- append(labels, "geo")
 
 lbls <- labels
 

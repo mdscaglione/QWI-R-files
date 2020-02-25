@@ -24,7 +24,6 @@ for (i in 1:length(path)) {
 qwi_all_n3_fs <- as_tibble(qwi_all_n3_fs)
 
 
-
 # LEHD Public Use Data Schema
 # https://lehd.ces.census.gov/data/schema/latest/lehd_public_use_schema.html
 

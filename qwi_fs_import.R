@@ -43,7 +43,6 @@ lblpath <- function (x) {
 
 path2 <- sapply(labels, lblpath)
 
-
 for (i in 1:length(labels)) {
   file <- read_csv(path2[i], col_types = "cc___")
   # file <- file %>% rename(labels[i] = label)
